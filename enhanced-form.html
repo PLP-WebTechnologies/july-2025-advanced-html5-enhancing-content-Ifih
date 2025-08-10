@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Cars: The Future of Mobility</title>
+</head>
+<body>
+    <header>
+        <h1>Electric Cars: The Future of Mobility</h1>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#models">Popular Models</a>
+            <a href="#form">Test Drive</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>The Dawn of a New Era</h2>
+            <img src="https://www.currencytransfer.com/wp-content/uploads/2022/11/ev-2-edit.min_-1024x536.jpg" alt="Electric Car Image" width="600" height="300" />
+            <p>Electric cars (EVs) are no longer a futuristic concept; they are a rapidly growing reality, reshaping the automotive industry and offering a sustainable alternative to traditional gasoline-powered vehicles. From city commuters to luxury sedans, the range of available electric vehicles is expanding, offering something for every driver. This page provides a brief overview of the key aspects of electric mobility and a form to get you started on your journey.</p>
+        </section>
+
+        <section id="benefits">
+            <h2>Why Go Electric?</h2>
+            <p>Switching to an EV offers numerous advantages for both the environment and the consumer.</p>
+            <ul>
+                <li><strong>Environmental Impact:</strong> EVs produce zero tailpipe emissions, contributing to cleaner air and a reduction in greenhouse gases.</li>
+                <li><strong>Lower Running Costs:</strong> Electricity is generally cheaper than gasoline, and EVs have fewer moving parts, leading to lower maintenance expenses.</li>
+                <li><strong>Quieter Operation:</strong> The silent operation of an electric motor provides a more peaceful and comfortable driving experience.</li>
+                <li><strong>Tax Incentives:</strong> Many governments offer significant tax credits, rebates, and other incentives to encourage EV adoption.</li>
+            </ul>
+        </section>
+
+        <section id="models">
+            <h2>Popular EV Models</h2>
+            <p>Here is a comparison of some of the most popular electric car models on the market today.</p>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>EPA Range (mi)</th>
+                        <th>MSRP (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tesla Model 3</td>
+                        <td>272</td>
+                        <td>$40,240</td>
+                    </tr>
+                    <tr>
+                        <td>Nissan Leaf S</td>
+                        <td>149</td>
+                        <td>$28,140</td>
+                    </tr>
+                    <tr>
+                        <td>Chevrolet Bolt EV</td>
+                        <td>259</td>
+                        <td>$26,500</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><em>*Ranges and prices are estimates and may vary.</em></td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <p>Watch this video to see the charging of a typical electric vehicle:</p>
+            <video width="640" height="480" controls>
+                <source src="https://videos.pexels.com/video-files/9788684/9788684-uhd_2560_1440_30fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Listen to sound of an electric car in the audio below</p>
+            <audio controls>
+                <source src="https://impulse-audio-lab.com/automotive/assets/media/IAL.webm" type="audio/webm">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <p>If you're considering an electric car, here are a few things to keep in mind:</p>
+            <ol>
+                <li>Research charging infrastructure in your area.</li>
+                <li>Assess your daily driving needs and required range.</li>
+                <li>Consider the availability of home charging solutions.</li>
+                <li>Factor in the total cost of ownership, including incentives and electricity costs.</li>
+            </ol>
+        </section>
+
+        <section id="form">
+            <h2>Schedule a Test Drive</h2>
+            <p>Fill out the form below to schedule a no-obligation test drive and experience an electric vehicle firsthand.</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" name="full_name" placeholder="Falaye Ifeoluwa" required minlength="2" autocomplete="name">
+                    <br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="name@sample.com" required autocomplete="email">
+                    <br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+234-xxx-xxxx-xxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required autocomplete="tel">
+                    <br><br>
+                    <label for="best_date">Preferred Test Drive Date:</label>
+                    <input type="date" id="best_date" name="best_date" required>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Vehicle Preferences</legend>
+                    
+                    <label for="car_model">Desired Model:</label>
+                    <input type="text" id="car_model" name="car_model" list="models_list" autocomplete="on">
+                    <datalist id="models_list">
+                        <option value="Tesla Model 3"></option>
+                        <option value="Nissan Leaf"></option>
+                        <option value="Chevrolet Bolt EV"></option>
+                        <option value="Ford Mustang Mach-E"></option>
+                        <option value="Hyundai Ioniq 5"></option>
+                    </datalist>
+                    <br><br>
+                    <label for="range_preference">Minimum Desired Range (in miles):</label>
+                    <input type="range" id="range_preference" name="range_preference" min="100" max="400" value="250">
+                    <br><br>
+                    <label for="passengers">Number of Passengers:</label>
+                    <input type="number" id="passengers" name="passengers" min="1" max="8" value="4">
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Stay Updated</legend>
+                    
+                    <input type="checkbox" id="updates" name="updates" value="yes" required>
+                    <label for="updates">I agree to receive email updates about electric vehicles.</label>
+                </fieldset>
+                <br><br>
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Electric Car Showcase by Falaye Ifeoluwa. All rights reserved. <a href="#">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
